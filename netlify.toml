@@ -2,7 +2,7 @@
 
 [build]
   # Build command for the client
-  command = "npm run client:build"
+  command = "npm ci --prefix client && npm run client:build"
   # Directory that contains the deploy-ready HTML files and assets
   publish = "client/dist"
   # Base directory (optional)
