@@ -1,0 +1,20 @@
+{
+  "name": "zasas-ecommerce",
+  "version": "1.0.0",
+  "description": "ZASAS — Premium Fashion E-Commerce Website (MERN, Luxury Editorial Design, Pakistani Market)",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "server:dev": "npm --prefix server run dev",
+    "client:dev": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "server:start": "npm --prefix server start",
+    "seed": "npm --prefix server run seed",
+    "test:server": "npm --prefix server test",
+    "test:client": "npm --prefix client test",
+    "test": "npm run test:server && npm run test:client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

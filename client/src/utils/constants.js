@@ -1,0 +1,46 @@
+export const PAKISTAN_PROVINCES = [
+  'Punjab',
+  'Sindh',
+  'Khyber Pakhtunkhwa',
+  'Balochistan',
+  'Islamabad Capital Territory',
+  'Gilgit-Baltistan',
+  'Azad Jammu and Kashmir',
+];
+
+export const MAJOR_PAKISTAN_CITIES = [
+  'Karachi',
+  'Lahore',
+  'Islamabad',
+  'Rawalpindi',
+  'Faisalabad',
+  'Multan',
+  'Peshawar',
+  'Quetta',
+  'Sialkot',
+  'Gujranwala',
+  'Hyderabad',
+  'Bahawalpur',
+  'Abbottabad',
+  'Sargodha',
+  'Sukkur',
+  'Larkana',
+  'Sheikhupura',
+  'Mardan',
+  'Gujrat',
+  'Kasur',
+];
+
+export const BRAND_INFO = {
+  name: 'ZASAS',
+  fullName: 'ZASAS Haute Couture & Pret',
+  established: '2021',
+  tagline: 'Modern Elegance Rooted in Pakistani Heritage',
+  phone: '+92 (21) 3589-7272',
+  whatsapp: '+92 300 8272727',
+  email: 'concierge@zasas.com',
+  address: 'Plot 14-C, 10th Commercial Street, Phase 5 DHA, Karachi, Pakistan',
+  freeShippingThreshold: 10000,
+  standardShippingFee: 350,
+  expressShippingFee: 750,
+};
